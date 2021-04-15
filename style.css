@@ -33,3 +33,65 @@ body {
   }
   
   
+  .image{
+    background-image:url('images/b1.png');
+    background-color:black;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .description{
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+  }
+  
+  .image-text {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .introduction {
+    color: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .service1 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .service1 img{
+      width: 50px;
+  }
+  
+  .service1 p {
+    padding: 0px 16px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .nav ul {
+      text-align: right;
+    }
+  
+    .nav-bar ul li {
+      display: inline-block;
+      border-bottom: 0px;
+      border-left: 1px solid black;
+      text-align: left;
+    }
+  
+    .service1 {
+      width: 50%;
+      float: left;
+    }
+  }
+  
