@@ -10,6 +10,7 @@ body {
   .nav-bar {
     background-color: rgb(15, 15, 68);
     color: whitesmoke;
+    cursor: pointer;
   }
 
   .nav-bar ul {
@@ -86,7 +87,75 @@ body {
     font-size: 1.5rem;
     color: gray;
   }
+
+
+  .contact ::placeholder{
+    padding: 20px;
+  }
+
+  #tele{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .contact a{
+    text-decoration: none;
+ 
+}
   
+input{
+  display: block;
+}
+
+.contact{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+
+#username{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+  /* color: whitesmoke; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#tele{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+#submit{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  background-color: red;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact{
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+  margin: 20px;
+}
+
   @media screen and (min-width: 700px) {
     .nav ul {
       text-align: right;
@@ -99,9 +168,10 @@ body {
       text-align: left;
     }
   
-    .service1 {
+    /* .service1 {
       width: 50%;
       float: left;
-    }
+    } */
   }
+  
   
