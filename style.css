@@ -119,7 +119,6 @@ input{
   margin-bottom: 40px;
   margin-left: 50px;
   background-color: whitesmoke;
-  /* color: whitesmoke; */
   padding: 10px;
   border-radius: 10px;
 }
@@ -168,10 +167,6 @@ input{
       text-align: left;
     }
   
-    /* .service1 {
-      width: 50%;
-      float: left;
-    } */
   }
   
   
